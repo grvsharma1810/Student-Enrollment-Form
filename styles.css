@@ -1,0 +1,40 @@
+header{
+    margin: 5px 0px;
+    padding : 10px 0px;
+    background-color: #46d8ab;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px solid #77b6a8;
+}
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label.form-cell, input.form-cell, span.form-cell {
+    display: table-cell;
+    margin-bottom: 1rem;
+}
+
+label {
+    padding-right: 10px;
+}
+table, th, td {
+    border: 1px solid #a6c746;
+    border-collapse: collapse;
+}
+tr:nth-child(odd) {
+    background-color: #ebf1d5;
+  }
+/* table { 
+    border-collapse: collapse; 
+} 
+.student-form { 
+    border-collapse:separate; 
+    border-spacing:0 1rem; 
+} */
