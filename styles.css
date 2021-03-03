@@ -1,5 +1,4 @@
 header{
-    margin: 5px 0px;
     padding : 10px 0px;
     background-color: #46d8ab;
     color: white;
@@ -8,11 +7,11 @@ header{
     text-align: center;
     border: 2px solid #77b6a8;
 }
-form.form-example {
+form.student-form {
     display: table;
 }
 
-div.form-example {
+div.student-form {
     display: table-row;
 }
 
@@ -24,12 +23,28 @@ label.form-cell, input.form-cell, span.form-cell, button.form-cell {
 label {
     padding-right: 10px;
 }
+
 table, th, td {
     border: 1px solid #a6c746;
     border-collapse: collapse;
 }
-tr:nth-child(odd) {
+tr:nth-child(even) {
     background-color: #ebf1d5;
+}
+img{
+    max-width: 40%;
+    height: auto;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #46d8ab;
+    padding : 10px 0px;
+    color: white;
+    text-align: center;
+    border: 2px solid #77b6a8;
   }
 /* table { 
     border-collapse: collapse; 
