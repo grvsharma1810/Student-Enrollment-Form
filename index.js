@@ -65,5 +65,5 @@ function handleSubmit(){
     var table = document.getElementById("student-table");
     console.log(table);
     table.appendChild(row)
-    // clearFormData();
+    clearFormData();
 }
