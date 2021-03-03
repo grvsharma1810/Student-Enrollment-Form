@@ -53,10 +53,10 @@ function handleSubmit(){
     var row = document.createElement("tr");    
     row.innerHTML = 
     `<td>
-        <div>${studentData.name}</div>
+        <div><strong>${studentData.name}</strong></div>
         <div>${studentData.gender}</div>
         <div>${studentData.email}</div>
-        <div><a href="${studentData.website}">${studentData.website}</a></div>
+        <div><a href="${studentData.website}" target="_blank">${studentData.website}</a></div>
         <div>${studentData.skills}</div>
     </td>
     <td style="text-align:center">
